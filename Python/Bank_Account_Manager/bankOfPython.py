@@ -79,7 +79,7 @@ class manager:
     def checkBalance(self):
         print("Check balance")
     def settings(self):
-        print("Settings")
+        print("Settings"),
 
 manager = manager()
 
@@ -112,6 +112,5 @@ def main():
                 break
         except ValueError:
             print("Please enter a valid number (1-6).\n")
-
 
 main()
